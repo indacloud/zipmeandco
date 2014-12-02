@@ -1,0 +1,23 @@
+{
+  "name": "InDaTheme",
+  "version": "1.0.0",
+  "authors": [
+    "Tom Brehm <tom@indacloud.fr>"
+  ],
+  "description": "InDaTheme base components",
+  "main": "bower.json",
+  "license": "GPL2",
+  "homepage": "http://indacloud.fr",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "awesome-bootstrap-checkbox": "~0.2.3",
+    "bootstrap": "~3.3.1"
+  }
+}
