@@ -1,0 +1,263 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: zmc\n"
+"POT-Creation-Date: 2014-12-15 21:30+0100\n"
+"PO-Revision-Date: 2014-12-15 21:54+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SearchPath-0: T:\\zipmeandco\\wp-content\\themes\\zipmeandco\n"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/functions.php:33
+msgid "Like us on Facebook"
+msgstr "Rejoignez-nous sur Facebook"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/functions.php:40
+msgid "Follow us on Twitter"
+msgstr "Suivez-nous sur Twitter"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/functions.php:47
+msgid "Our Instagram page"
+msgstr "Notre compte Instagram"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/functions.php:54
+msgid "We are on pinterest"
+msgstr "Profile Pinterest"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/functions.php:61
+msgid "On LinkedIn"
+msgstr "Profile LinkedIn"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:11
+msgid "Menus"
+msgstr "Menus"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:12
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:13
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:14
+msgid "Menu"
+msgstr "Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:15
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:49
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:82
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:115
+msgid "Add New"
+msgstr "Ajouter"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:16
+msgid "Add New Menu"
+msgstr "Ajouter nouveau Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:17
+msgid "New Menu"
+msgstr "Nouveau Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:18
+msgid "Edit Menu"
+msgstr "Editer Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:19
+msgid "View Menu"
+msgstr "Voir Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:20
+msgid "All Menus"
+msgstr "Tous les Menus"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:21
+msgid "Search Menus"
+msgstr "Recherche Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:22
+msgid "Parent Menus:"
+msgstr "Menus parents :"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:23
+msgid "No menus found."
+msgstr "Aucun Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:24
+msgid "No menus found in Trash."
+msgstr "Aucun Menu dans la corbeille"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:45
+msgid "Modals"
+msgstr "Modals"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:46
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:47
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:48
+msgid "Modal"
+msgstr "Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:50
+msgid "Add New Modal"
+msgstr "Ajouter Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:51
+msgid "New Modal"
+msgstr "Nouvelle Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:52
+msgid "Edit Modal"
+msgstr "Editer Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:53
+msgid "View Modal"
+msgstr "Visualiser Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:54
+msgid "All Modals"
+msgstr "Toutes les Modals"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:55
+msgid "Search Modals"
+msgstr "Rechercher Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:56
+msgid "Parent Modals:"
+msgstr "Modal parente :"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:57
+msgid "No modals found."
+msgstr "Aucune Modal"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:58
+msgid "No modals found in Trash."
+msgstr "Aucune Modal dans la corbeille"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:78
+msgid "Products"
+msgstr "Produits"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:79
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:80
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:81
+msgid "Product"
+msgstr "Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:83
+msgid "Add New Product"
+msgstr "Ajouter Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:84
+msgid "New Product"
+msgstr "Nouveau Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:85
+msgid "Edit Product"
+msgstr "Editer Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:86
+msgid "View Product"
+msgstr "Voir Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:87
+msgid "All Products"
+msgstr "Tous les Produits"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:88
+msgid "Search Products"
+msgstr "Rechercher Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:89
+msgid "Parent Products:"
+msgstr "Poduit parent"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:90
+msgid "No product found."
+msgstr "Aucun Produit"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:91
+msgid "No product found in Trash."
+msgstr "Aucun Produit dans la corbeille"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:111
+msgid "Testimonials"
+msgstr "Témoignages"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:112
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:113
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:114
+msgid "Testimonial"
+msgstr "Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:116
+msgid "Add New Testimonial"
+msgstr "Ajouter Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:117
+msgid "New Testimonial"
+msgstr "Nouveau Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:118
+msgid "Edit Testimonial"
+msgstr "Editer Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:119
+msgid "View Testimonial"
+msgstr "Voir Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:120
+msgid "All Testimonials"
+msgstr "Tous les Témoignages"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:121
+msgid "Search Testimonials"
+msgstr "Rechercher Témoignages"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:122
+msgid "Parent Testimonials:"
+msgstr "Témoignages parents"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:123
+msgid "No testimonial found."
+msgstr "Aucune Témoignage"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/custom_types.php:124
+msgid "No testimonial found in Trash."
+msgstr "Aucune Témoignage dans la corbeille"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:45
+msgid "Pictures"
+msgstr "Images"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:50
+msgid "Social"
+msgstr "Social"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:57
+msgid "Menu Logo"
+msgstr "Logo Menu"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:64
+msgid "Menu Logo for mobile"
+msgstr "Logo menu version mobile"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:72
+msgid "Facebook page link"
+msgstr "Lien page Facebook"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:80
+msgid "Twitter account link"
+msgstr "Lien profile Twitter"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:88
+msgid "Instagram link"
+msgstr "Lien profile Instagram"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:96
+msgid "Pinterest board link"
+msgstr "Lien profile Pinterest"
+
+#: T:\zipmeandco\wp-content\themes\zipmeandco/includes/theme_options.php:104
+msgid "LinkedIn profile link"
+msgstr "Lien profile LinkedIn"

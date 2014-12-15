@@ -1,0 +1,78 @@
+input,
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea
+  background: $input-bg
+  width: 100%
+  position: relative
+  margin-bottom: 10px
+  border: 1px solid black
+  border-radius: 4px
+  color: $gray
+  padding: 10px 8px
+  font-style: italic
+  font-size: 16px
+  font-family: $sansation-regular
+
+input[type="submit"]
+  background: $pink
+  border: 0
+  color: white
+  padding: 8px
+  font-style: normal
+  &:hover
+    box-shadow: inset 0px -3px 10px rgba(0, 0, 0, 0.3)
+  &[disabled],
+  &.disabled
+    opacity: 0.6
+    cursor: not-allowed
+  @media all and ($sm-break)
+    width: auto
+    min-width: 250px
+
+.wpcf7-checkbox,
+.wpcf7-form-control-wrap.acceptance
+  margin-bottom: 10px
+  input
+    display: none
+  label
+    font-weight: normal
+    line-height: 20px
+    margin-right: 20px
+
+    &:before
+      content: "\f096"
+      font-family: 'FontAwesome'
+      font-size: 20px
+      display: inline-block
+      width: 20px
+      position: relative
+      top: 3px
+    &.checked
+      &:before
+        content: "\f046"
+
+.wpcf7-radio
+  margin-bottom: 10px
+  input
+    display: none
+  label
+    font-weight: normal
+    line-height: 20px
+    margin-right: 20px
+
+    &:before
+      content: "\f10c"
+      font-family: 'FontAwesome'
+      font-size: 20px
+      display: inline-block
+      width: 20px
+      position: relative
+      top: 3px
+    &.checked
+      &:before
+        content: "\f058"
+
+span.wpcf7-not-valid-tip
+  font-size: 0.7em

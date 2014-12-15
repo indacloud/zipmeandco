@@ -1,0 +1,224 @@
+@import 'font'
+
+$sm-break: 'min-width: 768px'
+$md-break: 'min-width: 1024px'
+$lg-break: 'min-width: 1200px'
+
+$pink: #e30b57
+$light-pink: lighten($pink, 30)
+$input-bg: #fff9fb
+
+$gray: #a9a6a6
+
+$font-color: #000
+$font-color-gray: #3f444d
+$font-size: 20px
+$font-size-mobile: 16px
+
+$menu-height: 100px
+$menu-height-mobile: 50px
+
+
+body
+  font-family: $sansation-light, sans-serif
+  color: $font-color
+  position: relative
+  padding-top: $menu-height-mobile
+  font-size: $font-size-mobile
+  line-height: 1.5
+  img
+    max-width: 100%
+    height: auto
+  @media all and ($sm-break)
+    padding-top: $menu-height
+    font-size: $font-size
+
+@media screen and (max-width: 600px)
+  #wpadminbar
+    position: fixed
+
+#pourquoi-devenir-revendeur
+  ul
+    list-style: none
+    padding: 0
+    margin: 0
+
+    li
+      padding-left: 0.5em
+      margin: 10px 0
+      &:before
+        content: ""
+        display: inline-block
+        background: $pink
+        height: 6px
+        width: 6px
+        border-radius: 50%
+        margin-right: 10px
+
+@import 'header'
+@import 'footer'
+@import 'forms'
+
+section[data-section]
+  padding: 40px 0
+
+.title-icon
+  margin-bottom: 15px
+.section-title
+  h2
+    margin-top: 0
+    font-size: 28px
+  @media all and ($sm-break)
+    h2
+      font-size: 36px
+
+
+.modal-content
+  overflow: hidden
+  font-size: 16px
+.modal-header
+  background: $pink
+  padding: 10px 15px
+  border: 0
+  color: white
+
+.large-menu
+  margin-top: 20px
+  .large-menu-list
+    list-style: none
+    margin: 0
+    padding: 0
+    .large-menu-item
+      display: block
+      padding: 10px
+      width: 100%
+      box-sizing: border-box
+      a
+        display: block
+        background: $gray
+        color: white
+        padding: 8px
+        text-align: center
+        height: 100px
+        font-size: 16px
+        line-height: 1
+        border-radius: 3px
+        border-width: 1px
+        border-style: solid
+        border-color: darken($gray, 10)
+        &:hover
+          text-decoration: none
+          background: $light-pink
+          border-color: $pink
+        img
+          display: block
+          margin: 10px auto
+          height: 30px
+        span
+          display: block
+          margin: 10px 0
+  @media all and ($sm-break)
+    margin-top: 60px
+    .large-menu-list
+      &:after
+        content: ""
+        display: block
+        clear: left
+      .large-menu-item
+        float: left
+        width: 50%
+
+  @media all and ($md-break)
+    .large-menu-list
+      &:after
+        content: ""
+        display: block
+        clear: left
+      .large-menu-item
+        float: left
+        width: 25%
+
+#product-swiper
+  .navigation
+    .item
+      padding: 6px 5px
+      transition: all 0.3s ease-in-out
+      border-bottom: 1px solid $gray
+      a
+        font-size: 16px
+        color: $font-color
+        transition: all 0.3s ease-in-out
+        cursor: pointer
+        &:hover
+          text-decoration: none
+      &.active
+        border-bottom: 1px solid $pink
+        a
+          color: $pink
+          margin-left: 15px
+
+  .title
+    font-size: 16px
+    text-align: center
+  .content
+    font-size: 12px
+    text-align: center
+  .picture
+    text-align: center
+  @media all and ($sm-break)
+    .title
+      font-size: 24px
+      text-align: right
+    .content
+      font-size: 16px
+      text-align: right
+
+
+#product-switer-buttons
+  text-align: center
+  a
+    color: $pink
+    font-size: 50px
+    margin: 5px 10px
+
+
+#testimonials
+  margin: 10px 0
+  & > div
+    margin-bottom: 15px
+  .avatar
+    img
+      border: 2px solid $pink
+      margin-bottom: 10px
+  h5
+    font-size: 1em
+    font-family: $sansation-bold
+    margin: 0 0 10px
+  .content
+    font-size: 1em
+
+#pourquoi-devenir-revendeur
+  .cta
+    font-size: 20px
+    @media all and ($md-break)
+      font-size: 24px
+
+.cta-button
+  background: $pink
+  color: white
+  border-radius: 3px
+  text-transform: uppercase
+  font-size: 1.2em
+  padding: 16px
+  max-width: 400px
+  margin: 10px auto
+  display: block
+  &:hover,
+  &:active,
+  &:focus
+    color: white
+    text-decoration: none
+    box-shadow: inset 0px -3px 20px rgba(0, 0, 0, 0.3)
+
+.copyright
+  margin-top: 20px
