@@ -1,3 +1,6 @@
+.modal-open #main-head
+  padding-right: 17px !important
+
 #main-head
   background: $pink
   color: white
@@ -39,8 +42,13 @@
         &:focus
           color: white
           background: $pink
+          outline: none
       &.active > a
         background: white
+        color: $pink
+      &.featured > a
+        background: white
+        border-color: white
         color: $pink
 
   .language-select
@@ -95,8 +103,25 @@
             font-size: 10px
             margin: 4px 2px 4px 3px
             border-radius: 3px
-            padding: 5px 2px
+            padding: 4px 2px
             text-align: center
+            border: 1px solid
+            border-color: transparent
+            &:hover
+              background: $pink
+              color: white
+              border-color: white
+            &:focus
+              color: white
+              background: $pink
+              outline: none
+          &.active > a
+            background: $pink
+            color: white
+            border-color: white
+
+
+
   @media all and ($md-break)
     .navbar-brand
       padding: 30px 15px 20px
@@ -104,7 +129,7 @@
       .navbar-nav
         &> li
           &> a
-            font-size: 14px
+            font-size: 13px
   @media all and ($lg-break)
     .navbar-collapse
       .navbar-nav

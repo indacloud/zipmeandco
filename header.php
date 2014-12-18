@@ -42,7 +42,7 @@
               $menus = get_menus();
               foreach ($menus as $key => $menu) {
               ?>
-                <li id="<?php echo $menu['id']; ?>" class="menu-item">
+                <li id="<?php echo $menu['id']; ?>" class="menu-item <?php if($menu['featured']) echo "featured";?>">
                   <?php if($menu['action'] === 'modal'): ?>
                   <a href="#" data-toggle="modal" data-target="<?php echo $menu['target']; ?>">
                   <?php else: ?>

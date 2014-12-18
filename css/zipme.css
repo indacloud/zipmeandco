@@ -63,6 +63,10 @@ body img {
   margin-right: 10px;
 }
 
+.modal-open #main-head {
+  padding-right: 17px !important;
+}
+
 #main-head {
   background: #e30b57;
   color: white;
@@ -110,9 +114,15 @@ body img {
 #main-head .navbar-collapse .navbar-nav > li > a:focus {
   color: white;
   background: #e30b57;
+  outline: none;
 }
 #main-head .navbar-collapse .navbar-nav > li.active > a {
   background: white;
+  color: #e30b57;
+}
+#main-head .navbar-collapse .navbar-nav > li.featured > a {
+  background: white;
+  border-color: white;
   color: #e30b57;
 }
 #main-head .language-select {
@@ -177,8 +187,25 @@ body img {
     font-size: 10px;
     margin: 4px 2px 4px 3px;
     border-radius: 3px;
-    padding: 5px 2px;
+    padding: 4px 2px;
     text-align: center;
+    border: 1px solid;
+    border-color: transparent;
+  }
+  #main-head .navbar-collapse .navbar-nav > li > a:hover {
+    background: #e30b57;
+    color: white;
+    border-color: white;
+  }
+  #main-head .navbar-collapse .navbar-nav > li > a:focus {
+    color: white;
+    background: #e30b57;
+    outline: none;
+  }
+  #main-head .navbar-collapse .navbar-nav > li.active > a {
+    background: #e30b57;
+    color: white;
+    border-color: white;
   }
 }
 @media all and (min-width: 1024px) {
@@ -186,7 +213,7 @@ body img {
     padding: 30px 15px 20px;
   }
   #main-head .navbar-collapse .navbar-nav > li > a {
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 @media all and (min-width: 1200px) {
@@ -372,7 +399,7 @@ section[data-section] {
 }
 
 .large-menu {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .large-menu .large-menu-list {
   list-style: none;
@@ -415,7 +442,7 @@ section[data-section] {
 }
 @media all and (min-width: 768px) {
   .large-menu {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   .large-menu .large-menu-list:after {
     content: "";

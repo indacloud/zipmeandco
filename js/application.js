@@ -1,6 +1,6 @@
 (function() {
   $(document).ready(function() {
-    var activeSlide, offsetTop, productSwiper, scrollToSection;
+    var activeSlide, offsetTop, productSwiper, resizeSections, scrollToSection;
     offsetTop = $('#home').offset().top;
     scrollToSection = function(target) {
       return $('body, html').animate({
@@ -34,6 +34,19 @@
       target: '.navbar',
       offset: $('#home').offset().top + 10
     });
+    resizeSections = function() {
+      var sectionHeight;
+      sectionHeight = $(window).height() - ($('#main-head').height() + $('#main-foot').height());
+      return $('section[data-section]').each(function() {
+        return $(this).css({
+          'min-height': sectionHeight
+        });
+      });
+    };
+    $(window).on('resize', function(ev) {
+      return resizeSections();
+    });
+    resizeSections();
     productSwiper = $('#product-swiper .swiper-container').swiper({
       loop: true,
       calculateHeight: true

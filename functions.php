@@ -95,7 +95,8 @@ function get_menus(){
         'long_title' => get_field('menu_long_name'),
         'icon' =>       get_field('menu_icon'),
         'action' =>     get_field('menu_action'),
-        'target' =>     get_field('menu_target')
+        'target' =>     get_field('menu_target'),
+        'featured' =>   get_field('menu_featured')
         );
     }
   }

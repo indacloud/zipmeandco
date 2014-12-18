@@ -32,6 +32,18 @@ $(document).ready ->
     offset: $('#home').offset().top + 10
     )
 
+  resizeSections = ->
+    sectionHeight = $(window).height() - ($('#main-head').height() + $('#main-foot').height())
+    $('section[data-section]').each ->
+      $(this).css(
+        'min-height': sectionHeight
+        )
+
+  $(window).on 'resize', (ev)->
+    resizeSections()
+
+  resizeSections()
+
   productSwiper = $('#product-swiper .swiper-container').swiper(
     loop: true
     calculateHeight: true
