@@ -7,6 +7,7 @@ $lg-break: 'min-width: 1200px'
 $pink: #e30b57
 $light-pink: lighten($pink, 30)
 $input-bg: #fff9fb
+$input-color: #656c77
 
 $gray: #a9a6a6
 
@@ -41,6 +42,15 @@ a:hover, a:active
 @media screen and (max-width: 600px)
   #wpadminbar
     position: fixed
+
+.modal-header  button.close
+  font-size: 35px
+  margin-top: -7px
+  color: white
+  opacity: .6
+  &:hover,
+  &:focus
+    opacity: .9
 
 #questions-frequentes
   ul
