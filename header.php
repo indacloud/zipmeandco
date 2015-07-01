@@ -58,7 +58,7 @@
         </div>
       </nav>
       <div class="lang-selector">
-        <?php echo zmc_language_selector(); ?>
+        <?php //echo zmc_language_selector(); ?>
       </div>
     </div><!-- /.navbar-collapse -->
   </header>

@@ -39,11 +39,44 @@ body img {
   }
 }
 
+a, a:link, a:visited {
+  color: #e30b57;
+}
+
+a:hover, a:active {
+  text-decoration: unterline;
+}
+
 @media screen and (max-width: 600px) {
   #wpadminbar {
     position: fixed;
   }
 }
+#questions-frequentes ul {
+  list-style: none;
+}
+#questions-frequentes ul li {
+  position: relative;
+  margin-bottom: 10px;
+}
+#questions-frequentes ul li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 6px;
+  left: -20px;
+  background: #e30b57;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+}
+#questions-frequentes ul li strong {
+  color: #e30b57;
+}
+#questions-frequentes ul li ul li {
+  margin: 0;
+}
+
 #pourquoi-devenir-revendeur ul {
   list-style: none;
   padding: 0;
@@ -276,7 +309,8 @@ input,
 input[type="text"],
 input[type="email"],
 input[type="tel"],
-textarea {
+textarea,
+select {
   background: #fff9fb;
   width: 100%;
   position: relative;
@@ -288,6 +322,10 @@ textarea {
   font-style: italic;
   font-size: 16px;
   font-family: "sansationregular";
+}
+
+select {
+  height: 46px;
 }
 
 input[type="submit"] {
@@ -548,7 +586,7 @@ section[data-section] {
 
 .cta-button {
   background: #e30b57;
-  color: white;
+  color: white !important;
   border-radius: 3px;
   text-transform: uppercase;
   font-size: 1.2em;
@@ -558,7 +596,7 @@ section[data-section] {
   display: block;
 }
 .cta-button:hover, .cta-button:active, .cta-button:focus {
-  color: white;
+  color: white !important;
   text-decoration: none;
   box-shadow: inset 0px -3px 20px rgba(0, 0, 0, 0.3);
 }
