@@ -416,6 +416,10 @@ span.wpcf7-not-valid-tip {
   font-size: 0.7em;
 }
 
+.wp-video {
+  margin: 0 auto;
+}
+
 section[data-section] {
   padding: 40px 0;
 }
